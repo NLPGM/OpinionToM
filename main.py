@@ -19,12 +19,8 @@ import csv
 
 
 
-openai.base_url = "https://api.vveai.com/v1/"
+openai.base_url = ""
 
-# http_client = httpx.Client(base_url="https://api.vveai.com/v1")
-#
-# client = OpenAI(http_client=http_client)
-# assign experts for target
 target_role_map = {
     "Atheism": "theologian",
     "Climate Change is a Real Concern": "environmental scientist",
