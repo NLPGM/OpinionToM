@@ -7,9 +7,7 @@ import argparse
 
 import os
 os.environ["OPENAI_API_KEY"] = ''
-#os.environ["http_proxy"] = "http://localhost:7890"
 
-#os.environ["https_proxy"] = "https://api.vveai.com/v1"
 import httpx
 from httpx_socks import SyncProxyTransport
 from tracer import StanceTracer
@@ -18,11 +16,7 @@ from tqdm import tqdm
 from torch.utils.data import Dataset
 import csv
 
-# transport = SyncProxyTransport.from_url("https://api.vveai.com/v1")
-#
-# http_client = httpx.Client(transport=transport)
-#
-# client = OpenAI(http_client=http_client)
+
 
 
 openai.base_url = "https://api.vveai.com/v1/"
