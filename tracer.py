@@ -13,20 +13,7 @@ from httpx_socks import SyncProxyTransport
 from typing import List, Optional, Dict, Tuple
 import re
 
-#transport = SyncProxyTransport.from_url("socks5://127.0.0.1:7891")
 
-#http_client = httpx.Client(transport=transport)
-
-#client = OpenAI(http_client=http_client)
-
-# http_client = httpx.Client(base_url="https://api.vveai.com/v1")
-#
-# client = OpenAI(http_client=http_client)
-
-# client = OpenAI(
-#     api_key="sk-a957352d623f4f60ab52c5999fe51eb4",
-#     base_url="https://api.vveai.com/v1",
-# )
 
 openai.base_url = "https://api.vveai.com/v1/"
 
